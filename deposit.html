@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Deposit</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body onload="loadAccounts()">
+    <div class="container">
+      <h1>Deposit</h1>
+      <label for="accountList">Account List</label>
+      <select name="accountList" id="accountList" onchange="selecteAccount()">
+        <option value="">Select Account</option>
+      </select>
+      <h2>Current Balance: <span id="curren-balance"></span></h2>
+      <input type="text" name="input-depost" id="input-depost" />
+      <button type="submit" onclick="deposit()" id="deposit-balance">
+        Deposit
+      </button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

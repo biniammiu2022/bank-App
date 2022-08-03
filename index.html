@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Create Bank Account</h2>
+      <div class="input">
+        <label for="accountName">Account Name: </label>
+        <input type="text" name="accountName" id="accountName" />
+      </div>
+
+      <div class="input">
+        <label for="deposit">Deposit</label>
+        <input type="text" name="deposit" id="deposit" />
+      </div>
+      <br />
+
+      <button type="submit" id="createe-button">Create new account</button>
+
+      <div class="textarea">
+        <textarea
+          name="accounts"
+          id="accounts"
+          cols="30"
+          rows="10"
+          value="accounts"
+        ></textarea>
+      </div>
+      <button type="submit" id="depositButton">Deposit</button>
+      <button type="submit" id="debitButton">Debit</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
